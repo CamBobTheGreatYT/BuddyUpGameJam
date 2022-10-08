@@ -1,19 +1,21 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/cambo/Documents/Code/BuddyUpGameJam/main/Buddy Up Jam 2022/Packages/manifest.json
+    m_FilePath: C:/Users/AlinaVici/Documents/GitHub/BuddyUp/BuddyUpGameJam/Buddy
+      Up Jam 2022/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638006062450928857
-    m_Hash: 4007186375
+      ticks: 638007712336327596
+    m_Hash: 1857255145
   m_LockFileStatus:
-    m_FilePath: C:/Users/cambo/Documents/Code/BuddyUpGameJam/main/Buddy Up Jam 2022/Packages/packages-lock.json
+    m_FilePath: C:/Users/AlinaVici/Documents/GitHub/BuddyUp/BuddyUpGameJam/Buddy
+      Up Jam 2022/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638006062638139454
+      ticks: 638007714752045932
     m_Hash: 38571225
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,8 +27,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -170,8 +172,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -290,8 +292,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -386,8 +388,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -460,8 +462,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.test-framework@1.1.22
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -568,8 +570,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -739,8 +741,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2713,8 +2715,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\cambo\Documents\Code\BuddyUpGameJam\main\Buddy Up Jam
-        2022\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\AlinaVici\Documents\GitHub\BuddyUp\BuddyUpGameJam\Buddy
+        Up Jam 2022\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2737,6 +2739,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -2745,6 +2748,7 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -2774,5 +2778,6 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/cambo/Documents/Code/BuddyUpGameJam/main/Buddy Up Jam 2022/Packages
+m_ProjectPath: C:/Users/AlinaVici/Documents/GitHub/BuddyUp/BuddyUpGameJam/Buddy Up
+  Jam 2022/Packages
 m_EditorVersion: 2020.3.1f1 (77a89f25062f)
