@@ -114,12 +114,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89931c33774106145a75ce2d8c230586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2369536112827601919, guid: 95af88cda06cc86438284d3b92c729ac, type: 3}
   rb: {fileID: 2232408339723734256}
-  target: {fileID: 0}
   aggro: 0
   Speed: 0.0025
   Direction: 0
+  health: 10
+  x: 0
+  y: 0
+  PlayerMovement: {fileID: 0}
 --- !u!50 &2232408339723734256
 Rigidbody2D:
   serializedVersion: 4

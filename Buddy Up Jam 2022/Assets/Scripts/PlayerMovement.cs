@@ -19,8 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject winUI;
     public AudioSource Swish;
     public AudioSource Hit;
-    Vector2 movement;
-    
+    Vector2 movement;   
 
     // Update is called once per frame
     void Update()
@@ -32,10 +31,14 @@ public class PlayerMovement : MonoBehaviour
         if (movement.x > 0)
         {
             gameObject.transform.localScale = new Vector3(0.02f,0.02f,1f);
+//            attackpos..x = 1.15;
+//            location.x = 0.8;
         }
         else if (movement.x < 0)
         {
             gameObject.transform.localScale = new Vector3(-0.02f,0.02f,1f);
+//            attackpos.x = -1.15;
+//            location.x = -0.8;
         }
         if (movement.x > 0)
         {
