@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D attackpos;
     public Rigidbody2D location;
     public GameObject winUI;
+    public AudioSource Swish;
     Vector2 movement;
     
 
@@ -50,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
             sword.rotation = -85;
             attack = true;
             sword.position = rb.position + attackpos.position;
+            Swish.Play();
         }
         else {
             sword.rotation = -10.5f;
