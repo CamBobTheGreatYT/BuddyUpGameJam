@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D location;
     public GameObject winUI;
     public AudioSource Swish;
+    public AudioSource Hit;
     Vector2 movement;
     
 
@@ -45,7 +46,11 @@ public class PlayerMovement : MonoBehaviour
             sword.transform.localScale = new Vector3(-189f,399f,1f);
         }
 
-        if (health <= 0) this.gameObject.SetActive(false);
+        if (health <= 0)
+        {
+            gameObject.transform.position = new Vector3(-1.61f,0.58f,0f);
+            health = 10;
+        }
         
         if (Input.GetKey("space")) {
             sword.rotation = -85;
@@ -73,7 +78,10 @@ public class PlayerMovement : MonoBehaviour
     void OnTriggerEnter2D (Collider2D collision) {
 
         if (collision.gameObject.tag == "enemyHitBox") health -= 5;
-
+        if (collision.gameObject.tag == "enemyHitBox")
+        {
+            Hit.Play();
+        }
         if (collision.gameObject.tag == "Finish") {
             Debug.Log("Good Job");
             winUI.SetActive(true);
