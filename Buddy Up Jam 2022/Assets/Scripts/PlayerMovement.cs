@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D location;
     public GameObject winUI;
     Vector2 movement;
+    
 
     // Update is called once per frame
     void Update()
@@ -25,6 +26,23 @@ public class PlayerMovement : MonoBehaviour
 
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        if (movement.x > 0)
+        {
+            gameObject.transform.localScale = new Vector3(0.02f,0.02f,1f);
+        }
+        else if (movement.x < 0)
+        {
+            gameObject.transform.localScale = new Vector3(-0.02f,0.02f,1f);
+        }
+        if (movement.x > 0)
+        {
+            sword.transform.localScale = new Vector3(189f,399f,1f);
+        }
+        else if (movement.x < 0)
+        {
+            sword.transform.localScale = new Vector3(-189f,399f,1f);
+        }
 
         if (health <= 0) this.gameObject.SetActive(false);
         
@@ -38,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
             attack = false;
             sword.position = rb.position + location.position;
         }
+        
+    
     }
     
     void FixedUpdate()
@@ -58,5 +78,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
+
+
     
 }

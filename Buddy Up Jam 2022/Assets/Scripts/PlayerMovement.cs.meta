@@ -3,7 +3,12 @@ guid: 9407beb1bd92a23458d6d879c7fec998
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - sword: {instanceID: 0}
+  - attackpos: {instanceID: 0}
+  - location: {instanceID: 0}
+  - winUI: {fileID: 2369536112827601912, guid: 95af88cda06cc86438284d3b92c729ac, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
